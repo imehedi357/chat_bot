@@ -28,8 +28,8 @@ const steps = [
   },
   {
     id: "3",
-    message: " hi {previousValue}, how can I help you?",
-    trigger: 4,
+    message: " Hi {previousValue}, Welcome to English Tutor Bot.",
+    trigger: 5,
   },
   {
     id: "4",
@@ -40,22 +40,29 @@ const steps = [
       { value: 1, label: "View Courses" },
       { value: 2, label: "Read Articles" },
     ],
-    end: true,
+  },
+  {
+    id: "5",
+    user: true,
+    trigger: 6,
+  },
+  {
+    id: "6",
+    message: "Sorry. We are currently under development.",
+    trigger: 5,
   },
 ];
 
 // Creating our own theme
 const theme = {
-  background: "#C9FF8F",
-  headerBgColor: "#197B22",
+  background: "#DBF8BD",
+  headerBgColor: "#074E0E",
   headerFontSize: "20px",
-  botBubbleColor: "#0F3789",
+  botBubbleColor: "#0A2C6E",
   headerFontColor: "white",
   botFontColor: "white",
-  userBubbleColor: "#FF5733",
+  userBubbleColor: "#A53834E7",
   userFontColor: "white",
-  outerHeight: "100%",
-  innerHeight: "100%",
 };
 
 // Set some properties of the bot
