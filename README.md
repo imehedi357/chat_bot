@@ -9,7 +9,7 @@
 
 (In the root of project directory)
 
-### 'npm install'
+### `npm install`
 
 To install the required dependencies from package.json file
 
