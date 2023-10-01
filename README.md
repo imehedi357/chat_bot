@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# English Chat Bot
+
+## Requirements
+
+1. Node.js v18.18 or Latest
+2. npm or yarn
+
+## Installation
+
+(In the root of project directory)
+
+### 'npm install'
+
+To install the required dependencies from package.json file
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
